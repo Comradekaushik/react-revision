@@ -36,3 +36,171 @@
     transform: rotate(360deg);
   }
 }
+
+.blank{
+  color:white;
+  background-color: red;
+}
+
+.main-logo-project-1{
+  width:40px;
+}
+
+.header-div{
+  display:flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.main-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-logo {
+  width: 40%;
+}
+
+.main-logo-project-1 {
+  width: 70px;
+}
+
+.navbar-link1 {
+  width: 15%;
+}
+
+.button-1 {
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.button-1:hover{
+  border-bottom: solid;
+  padding-bottom: 0;
+  
+}
+
+
+
+.navbar-link2 {
+  width: 15%;
+}
+.button-2 {
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.button-2:hover{
+  border-bottom: solid;
+  padding-bottom: 0;
+}
+.navbar-link3 {
+  width: 15%;
+}
+.button-3 {
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.button-3:hover{
+  border-bottom: solid;
+  padding-bottom: 0;
+}
+
+.navbar-link4{
+  margin-right:2%;
+}
+
+.button-4 {
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.button-4:hover{
+  border-bottom: solid;
+  padding-bottom: 0;
+}
+
+.main-header-project-2{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.logo-project2-img{
+  width:5%;
+}
+
+.main-header-project2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(40,42 ,53 );
+}
+
+.Logo-project2{
+  width:3%;
+}
+.logo-project2-img {
+  width: 95%;
+}
+
+.Reactfacts-project2{
+  color:rgb(97, 218, 251)
+}
+
+.reactcourse-side-project1-name{
+  margin-left: auto;
+  margin-right: 3%;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.heading-project-2{
+  color:white;
+  font-size: 50px;
+}
+
+.list-item-1{
+  color:rgb(97, 218, 251);
+}
+
+.list-span{
+  color:white;
+
+  
+}
+
+.main-content-project-2{
+  height:75vh;
+  background-color: rgb(40,42,53);
+  background-image: url(./images/logo192.png);
+  background-repeat: no-repeat;
+  background-position-x:110% ;
+  background-position-y: 40vh ;
+}
+
+.aclassdataimage{
+  width:250px;
+}
+
+.class234{
+  width:180px;
+}
+
+
+
+
