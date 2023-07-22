@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import Joke from "./joke";
 import Datastorage from "./data";
+import Meme from "./meme";
 import reportWebVitals from "./reportWebVitals";
 
 const myElement = (
@@ -319,6 +320,50 @@ function Card(datapoints) {
   );
 }
 
+function Cardcopy(datapoints) {
+
+  
+
+  return (
+    <>
+
+    
+      <img src={datapoints.item.image} className = "class234"/>
+
+      
+
+      <p>{datapoints.item.Personname}</p>
+
+      <p>
+        <span>{datapoints.item.ratingstarscount}</span>   
+        <span>   </span><span>{datapoints.items.ratingreviewcount}</span>
+      </p>
+
+      <p>{datapoints.item.Description}</p>
+    </>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function Airbnbclone() {
   const Cardsarray = Datastorage.map((nameofeachitemoftheoriginaldataarray) => {
     return(<Card
@@ -337,12 +382,30 @@ function Airbnbclone() {
   return (<>{Cardsarray}</>);
 }
 
+
+function Airbnbclonecopy() {
+  const Cardsarraycopy = Datastorage.map((nameofeachitemoftheoriginaldataarray) => {
+    return(<Cardcopy
+      item = {Datastorage}
+    
+    
+    
+    
+    
+    />);
+  });
+
+  return (<>{Cardsarraycopy}</>);
+}
+
+
+
 const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
 // root.render(<FunctionName/>);
 // root.render(<Refinedversion1allatoneplace />);
 // root.render(<Fourjokes/>);
-root.render(<Airbnbclone/>);
+root.render(<Meme/>);
 // <App />
 
 // If you want to start measuring performance in your app, pass a function

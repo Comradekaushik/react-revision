@@ -42,6 +42,23 @@ let Datastorage = [
     },
 
 
+    {
+
+        id:4,
+        img: require('./images/scott-graham-5fNmWej4tAA-unsplash.jpg'),
+        rating : {
+            stars : 3.9,
+            totalReviews : 54,  
+        },
+        nameofperson : "iron man",
+        description : "Now, more than half a century later – and after decades of anguished debate – the Communist Party of Cuba is allowing private businesses to spring up on the island. Since 2021, Cubans have been able to incorporate small and medium-sized businesses which can employ up to 100 people. More than 8,000 have already been registered.The private sector is roaring back, bringing with it more productivity but also more inequality to the island nation.",
+
+
+
+
+    },
+
+
 
 
 
