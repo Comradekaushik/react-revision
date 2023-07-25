@@ -5,6 +5,9 @@ import App from "./App";
 import Joke from "./joke";
 import Datastorage from "./data";
 import Meme from "./meme";
+import Arraypush from "./randomarraypractice";
+
+import CounterApp from "./counterapp";
 import reportWebVitals from "./reportWebVitals";
 
 const myElement = (
@@ -405,7 +408,17 @@ const root = ReactDOM.createRoot(container);
 // root.render(<FunctionName/>);
 // root.render(<Refinedversion1allatoneplace />);
 // root.render(<Fourjokes/>);
-root.render(<Meme/>);
+
+
+// root.render(<Meme/>);
+
+
+// root.render(<Arraypush/>);
+
+root.render(<CounterApp/>);
+
+
+
 // <App />
 
 // If you want to start measuring performance in your app, pass a function
