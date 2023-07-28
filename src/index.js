@@ -5,7 +5,9 @@ import App from "./App";
 import Joke from "./joke";
 import Datastorage from "./data";
 import Meme from "./meme";
+import UseStateform from "./usestate-practice";
 import Arraypush from "./randomarraypractice";
+import SwitchYesorNO from "./randomusestatepractice";
 
 import CounterApp from "./counterapp";
 import reportWebVitals from "./reportWebVitals";
@@ -413,9 +415,13 @@ const root = ReactDOM.createRoot(container);
 // root.render(<Meme/>);
 
 
-// root.render(<Arraypush/>);
+root.render(<Arraypush/>);
 
-root.render(<CounterApp/>);
+// root.render(<CounterApp/>);
+
+// root.render(<UseStateform/>);
+
+// root.render(<SwitchYesorNO/>);
 
 
 

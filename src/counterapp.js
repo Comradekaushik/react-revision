@@ -3,8 +3,11 @@ export default function CounterApp(){
     let [TotalCountNow,setIsTotalCountNow] = React.useState(0);
 
     function CountPlusOne(){
+        console.log(TotalCountNow);
         let NewCount = TotalCountNow+1;
         setIsTotalCountNow(NewCount);
+        console.log("--------------");
+        console.log(TotalCountNow);
     }
 
     function CountMinusOne(){
@@ -12,5 +15,9 @@ export default function CounterApp(){
         setIsTotalCountNow(NewCount);
     }
 
-    return(<><div>{TotalCountNow}</div><button onClick={CountPlusOne}>+1</button><button onClick={CountMinusOne}>-1</button></>)
+    function tellwhatisnow(){
+        console.log(TotalCountNow);
+    }
+
+    return(<><div>{TotalCountNow}</div><button onClick={CountPlusOne}>+1</button><button onClick={CountMinusOne}>-1</button><button onClick={tellwhatisnow}>Value now</button></>);
 } ;

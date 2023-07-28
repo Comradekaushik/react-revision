@@ -285,6 +285,22 @@
 }
 
 
+.Random-image-displaying{
+  width:40%;
+}
+
+.state--value{
+  background-color: black;
+  color: white;
+  width:60px;
+  height:40px;
+  margin-left: 20px;
+  cursor: pointer;
+  
+  
+  }
+
+
 
 
 
