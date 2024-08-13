@@ -8,8 +8,13 @@ import Meme from "./meme";
 import UseStateform from "./usestate-practice";
 import Arraypush from "./randomarraypractice";
 import SwitchYesorNO from "./randomusestatepractice";
+import Boxcomponent from "./boxes.js"
+import boxesarray from "./boxesarray";
+import Boxcomponentcopy from "./boxesCopy";
 
 import CounterApp from "./counterapp";
+
+import Personalinfocardcomplexstateobjects from "./complex-state-objects";
 import reportWebVitals from "./reportWebVitals";
 
 const myElement = (
@@ -357,18 +362,6 @@ function Cardcopy(datapoints) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 function Airbnbclone() {
   const Cardsarray = Datastorage.map((nameofeachitemoftheoriginaldataarray) => {
     return(<Card
@@ -415,13 +408,21 @@ const root = ReactDOM.createRoot(container);
 // root.render(<Meme/>);
 
 
-root.render(<Arraypush/>);
+// root.render(<Arraypush/>);
 
 // root.render(<CounterApp/>);
 
 // root.render(<UseStateform/>);
 
 // root.render(<SwitchYesorNO/>);
+
+
+// root.render(<Personalinfocardcomplexstateobjects/>)
+
+// root.render(<Boxcomponent />)
+
+
+root.render(<Boxcomponentcopy/>)
 
 
 

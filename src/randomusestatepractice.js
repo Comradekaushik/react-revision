@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./App.css"
+
 export default function SwitchYesorNO() {
   let [switchnow, setswitchnow] = React.useState("YES");
 
